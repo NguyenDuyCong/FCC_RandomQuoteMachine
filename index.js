@@ -85,7 +85,7 @@ function App() {
         <i className="fa fa-quote-right"></i>
       </div>
       <div className="quote-author">
-        - <span>{randomQuote.author}</span>
+        - <span id="author">{randomQuote.author}</span>
       </div>
       <div className="buttons">
         <a
